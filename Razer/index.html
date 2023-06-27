@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto&family=Sen:wght@400;700;800&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     
     <link rel="icon" href="assets/img/razer-ths-logo.png">
@@ -36,13 +37,14 @@
             <li class = "search-btn">
               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
-            <li class = "shopping-cart">
+            <li class = "shopping-cart" id = "cart">
               <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-              <ul class="subnav">
-                <li><a href="">Carts</a></li>
-                <li><a href="">Orders</a></li>
-                <li><a href="">Account</a></li>
-                <li><a href="">Login</a></li>
+              <ul class="subnav" id = "sub">
+                <p style = "text-align: center; font-size: .875rem;">Your Cart is empty.</p>
+                <li><a href=""><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Carts</a></li>
+                <li><a href=""><i class="fas fa-box" style="color: #ffffff;"></i>Orders</a></li>
+                <li><a href=""><i class="fas fa-user" style="color: #ffffff;"></i>Account</a></li>
+                <li><a href=""><i class="fas fa-sign-in-alt" style="color: #ffffff;"></i>Login</a></li>
               </ul>
             </li>
         </ul>
@@ -61,5 +63,7 @@
 
 
 
+
+    <script src = "assets/js/script.js"></script>
   </body>
 </html>

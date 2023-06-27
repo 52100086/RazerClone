@@ -21,9 +21,8 @@ body {
 #header > .navigation {
     display: flex;
     justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 400px;
-    gap: 5px;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 
 #header > .navigation > li{
@@ -87,16 +86,30 @@ body {
     position: absolute;
     right: -10px;
     top: 50px;
+    display: none;
     background-color: #222;
-    width: 200px;
+    width: 285px;
+    height: 310px;
     border-radius: 10px;
     border: 2px solid #555;
 }
 
 #header .subnav li{ 
     list-style-type: none;
+    padding: 0 15px;
+    border-top: 1px solid #555;
 }   
 
+#header .subnav i {
+    margin-right: 12px;
+}
+
+#header .subnav a {
+    color: white;
+    font-size: .875rem;
+}
+
+#header .navigation .shopping-cart:cli
 
 #content {
     height: 500px;
@@ -104,11 +117,13 @@ body {
     
 }
 
-@media only screen and (max-width: 1920px) {
+
+
+/* @media only screen and (min-width: 1920px) {
     #header .navigation {
         display: flex;
         justify-content: space-between;
         margin-left: 50px;
         margin-right: 50px;
     }
-}
+} */
