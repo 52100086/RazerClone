@@ -59,28 +59,7 @@ body {
     color: white;
 }
 
-#header .infor-textarea {
-    height: 44px;
-    background-color: #555;  
-    text-align: center;
-}
 
-#header .infor-text {
-    line-height: 44px;
-    color: white;
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
-} 
-
-#header  .infor-text  a {
-    text-decoration: none;
-    color: white;
-
-}
-
-#header .infor-text :hover {
-    text-decoration: underline;
-}
 
 #header .subnav{
     position: absolute;
@@ -109,13 +88,98 @@ body {
     font-size: .875rem;
 }
 
-#header .navigation .shopping-cart:cli
+#header .subnav li:hover a {
+    color: #44d62c;
+}
 
 #content {
-    height: 500px;
-    margin-top: 104px;
-    
+    margin-top: 60px;
+    height: 2100px;
 }
+
+#content .infor-textarea {
+    height: 44px;
+    background-color: #555;  
+    text-align: center;
+}
+
+#content .infor-text {
+    line-height: 44px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+} 
+
+#content  .infor-text  a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#content .infor-text :hover {
+    text-decoration: underline;
+}
+
+#content .product_1 {
+    height: 700px;
+    background: url("/assets/img/cobra-pro-homepage-desktop.jpg");
+}
+
+
+#content .product_2 {
+    height: 700px;
+    background: url("/assets/img/razer-blade-14-2023-homepage-desktop.jpg");
+}
+
+#content .product_3 {
+    height: 700px;
+    background: url("/assets/img/moray-homepage-desktop2x.jpg") top center / cover;
+}
+
+#content .container {
+    height: 210px;
+    text-align: center;
+}
+
+#content .container h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+#content .container h4 {
+    color: white;
+    font-weight: 50;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#content .container a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3125rem;
+    padding: 0 16px;
+}
+
+#content .img-wrapper,
+#content .img-wrapper-2,
+#content .img-wrapper-3
+{
+    height: 710px;
+    background-color: #222;
+}
+
+#content .container a:hover {
+    text-decoration: underline;
+}
+
+#content .container .arrow::after{
+    content: ">";
+    color: #44d62c;
+}
+
 
 
 

@@ -10,7 +10,6 @@ cart_btn.on('click', function (e){
 
 
 $(document).on('click', function (e) {
-    // Check if the click target is not a descendant of #sub
     if (!subnav.is(e.target) && subnav.has(e.target).length === 0) {
       subnav.css('display', 'none');
     }
