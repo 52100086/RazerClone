@@ -16,6 +16,7 @@ body {
     left: 0;
     right: 0;
     border-bottom: 1px solid #44D62C;
+    z-index: 1;
 }
 
 #header > .navigation {
@@ -122,13 +123,13 @@ body {
 
 #content .product_1 {
     height: 700px;
-    background: url("/assets/img/cobra-pro-homepage-desktop.jpg");
+    background: url("/assets/img/cobra-pro-homepage-desktop.jpg") top center / cover;
 }
 
 
 #content .product_2 {
     height: 700px;
-    background: url("/assets/img/razer-blade-14-2023-homepage-desktop.jpg");
+    background: url("/assets/img/razer-blade-14-2023-homepage-desktop.jpg") top center / cover;
 }
 
 #content .product_3 {
@@ -163,9 +164,7 @@ body {
     padding: 0 16px;
 }
 
-#content .img-wrapper,
-#content .img-wrapper-2,
-#content .img-wrapper-3
+#content .img-wrapper
 {
     height: 710px;
     background-color: #222;
@@ -175,19 +174,73 @@ body {
     text-decoration: underline;
 }
 
-#content .container .arrow::after{
+.arrow::after{
     content: ">";
     color: #44d62c;
 }
 
+#content .more-product {
+    height: 1740px; 
+} 
+
+#content .more-product .wrapper-2 {
+    height: 570px;
+    background-color: #222;
+    display: flex;
+}
+
+#content .wrapper-2 .prod {
+    position: relative;
+    height: 570px;
+    flex: 1;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper-2 .prod img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper-2 .prod .txt-wrapper{
+    position: absolute;
+    top: 0;
+    padding: 10px 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-2 .txt-wrapper .heading {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+}
+
+.wrapper-2 .txt-wrapper .sub-heading {
+    display: block;
+    color: white;
+    font-size: 1.313rem;
+    padding-top: 5px;
+}
 
 
+.wrapper-2 .txt-wrapper a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+    padding-right: 15px;
+}
 
-/* @media only screen and (min-width: 1920px) {
+
+@media only screen and (max-width: 1920px) {
     #header .navigation {
         display: flex;
         justify-content: space-between;
         margin-left: 50px;
         margin-right: 50px;
     }
-} */
+}
