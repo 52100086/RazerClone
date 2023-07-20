@@ -123,7 +123,7 @@ body {
 
 #content .product_1 {
     height: 700px;
-    background: url("/assets/img/cobra-pro-homepage-desktop.jpg") top center / cover;
+    background: url("/assets/img/prime-day-2023-homepage-desktop1x.jpg") top center / cover;
 }
 
 
@@ -206,7 +206,7 @@ body {
 .wrapper-2 .prod .txt-wrapper{
     position: absolute;
     top: 0;
-    padding: 10px 10%;
+    padding: 25px 5%;
     width: 100%;
     text-align: center;
 }
@@ -214,8 +214,8 @@ body {
 .wrapper-2 .txt-wrapper .heading {
     color: white;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 600;
     display: block;
 }
 
@@ -229,18 +229,23 @@ body {
 
 .wrapper-2 .txt-wrapper a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 100;
     color: white;
     padding-right: 15px;
 }
 
 
-@media only screen and (max-width: 1920px) {
+.wrapper-2 .txt-wrapper a:hover {
+    text-decoration: underline;
+}
+
+
+/* @media only screen and (min-width: 1920px) {
     #header .navigation {
         display: flex;
         justify-content: space-between;
         margin-left: 50px;
         margin-right: 50px;
     }
-}
+} */
