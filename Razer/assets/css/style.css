@@ -254,6 +254,53 @@ body {
     padding: 1.5265rem 1.875rem;
 }   
 
+.footer-container .top-row {
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-container .top-row .footer-col {
+    flex: 1;
+    padding: 0 0.5rem;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-row .footer-col .label {
+    color: #fff;
+    padding-bottom: 0.75rem;
+}
+
+.top-row .footer-col li {
+    padding-bottom: 0.75rem;
+    list-style-type: none;
+}
+
+.top-row .footer-col li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.top-row .footer-col li:hover a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer-container .top-row .footer-col-right {
+    width: 25%;
+    padding: 0 0.75rem;
+}
+
+
+
+
+
+
+
+
+
 
 /* @media only screen and (min-width: 1920px) {
     #header .navigation {
