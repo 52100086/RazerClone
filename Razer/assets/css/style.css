@@ -274,7 +274,7 @@ body {
 }
 
 .top-row .footer-col li {
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.95rem;
     list-style-type: none;
 }
 
@@ -289,15 +289,64 @@ body {
 }
 
 .footer-container .top-row .footer-col-right {
+    position: relative;
     width: 25%;
     padding: 0 0.75rem;
 }
 
 
+.social-media li {
+    height: 31px;
+    padding-bottom: 0.25rem !important;
+}
 
 
+.social-media .icon-facebook{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0001-facebook-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
 
 
+.social-media .icon-instagram{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0003-instagram-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+.social-media .icon-twitter{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0005-twitter-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+.social-media .icon-youtube{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0008-youtube-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+
+.social-media .icon-tiktok{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0014-tiktok-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+
+.social-media .icon-twitch{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0009-twitch-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+
+.social-media .icon-discord{
+    background: url('https://assets2.razerzone.com/images/phoenix/SM0015-discord-grey.svg') no-repeat!important   ;
+    height: 100%;
+}
+
+.footer-col-right .slogan {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #44d62c;
+    font-size: 0.9rem;
+}
 
 
 
